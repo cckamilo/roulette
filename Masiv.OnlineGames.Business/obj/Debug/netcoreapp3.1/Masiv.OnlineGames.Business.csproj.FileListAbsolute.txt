@@ -1,0 +1,15 @@
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.deps.json
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.dll
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.pdb
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.csproj.AssemblyReference.cache
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.AssemblyInfoInputs.cache
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.AssemblyInfo.cs
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.csproj.CoreCompileInputs.cache
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.dll
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.pdb
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.dll
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.pdb
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Business.csproj.CopyComplete
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.dll
+/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.pdb

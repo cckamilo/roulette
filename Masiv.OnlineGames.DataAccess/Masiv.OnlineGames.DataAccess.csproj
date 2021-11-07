@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MongoDb\" />
+    <None Remove="MongoDb\Base\" />
+    <None Remove="MongoDb\Configuration\" />
+    <None Remove="MongoDb\Models\" />
+    <None Remove="MongoDb\Interfaces\" />
+    <None Remove="MongoDb\Repository\" />
+    <None Remove="MongoDB.Driver" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MongoDb\" />
+    <Folder Include="MongoDb\Base\" />
+    <Folder Include="MongoDb\Configuration\" />
+    <Folder Include="MongoDb\Models\" />
+    <Folder Include="MongoDb\Interfaces\" />
+    <Folder Include="MongoDb\Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.13.2" />
+  </ItemGroup>
+</Project>

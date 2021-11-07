@@ -1,6 +1,7 @@
 # roulette
 rest api that simulates the roulette game
 
+---> El proyecto postman se encuentra en la raiz de la solucion para importar.
 
 ----endpoints dev----
 

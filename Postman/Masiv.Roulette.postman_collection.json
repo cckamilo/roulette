@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "c1924d9a-58b7-48d2-b63c-2989e04eb969",
+		"name": "Masiv.Roulette",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "new roulette",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/v1/roulette/new",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"roulette",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "open roulette",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/roulette/{{id}}/open",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"roulette",
+						"{{id}}",
+						"open"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Bet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authentication",
+						"value": "true",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"61873abd2257f1877366c7a3\",\n  \"value\": 24,\n  \"amount\": \"9000\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/roulette/bet",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"roulette",
+						"bet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Close Roulette",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/v1/roulette/{{id}}/close",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"v1",
+						"roulette",
+						"{{id}}",
+						"close"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

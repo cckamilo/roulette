@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aqRTPtg93o8WaNIo5QGGkvZ0q8RLb4po/5YCrlRh2q6x0oSdQ/WofGEdqo2YsnnS6hmo+h1HcIQxjJaQ94G83Q==",
+  "dgSpecHash": "VPotvuraiKjv6uaR3Hmn0MSKw8VSLTAU1yvuhMbZMybV/J6ddS4QCnfZMHi0jQ87uci9XIK4LNyloOqWk5GvRw==",
   "success": true,
-  "projectFilePath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
+  "projectFilePath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
   "expectedPackageFiles": [
     "/Users/christianguzman/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/microsoft.aspnetcore.jsonpatch/3.0.0/microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",

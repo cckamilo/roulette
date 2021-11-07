@@ -713,11 +713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
+      "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
       "projectName": "Masiv.OnlineGames.RouletteApi",
-      "projectPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
+      "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
       "packagesPath": "/Users/christianguzman/.nuget/packages/",
-      "outputPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.RouletteApi/obj/",
+      "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christianguzman/.config/NuGet/NuGet.Config"
@@ -732,8 +732,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj": {
-              "projectPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj"
+            "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj": {
+              "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj"
             }
           }
         }

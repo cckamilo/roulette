@@ -488,11 +488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
+      "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
       "projectName": "Masiv.OnlineGames.Business",
-      "projectPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
+      "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
       "packagesPath": "/Users/christianguzman/.nuget/packages/",
-      "outputPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/obj/",
+      "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christianguzman/.config/NuGet/NuGet.Config"
@@ -507,11 +507,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {
-              "projectPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj"
+            "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {
+              "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj"
             },
-            "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj": {
-              "projectPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj"
+            "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj": {
+              "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj"
             }
           }
         }

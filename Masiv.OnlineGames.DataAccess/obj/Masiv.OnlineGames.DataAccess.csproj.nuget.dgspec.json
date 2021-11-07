@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {}
+    "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {}
   },
   "projects": {
-    "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {
+    "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
+        "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
         "projectName": "Masiv.OnlineGames.DataAccess",
-        "projectPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
+        "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
         "packagesPath": "/Users/christianguzman/.nuget/packages/",
-        "outputPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.DataAccess/obj/",
+        "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/christianguzman/.config/NuGet/NuGet.Config"

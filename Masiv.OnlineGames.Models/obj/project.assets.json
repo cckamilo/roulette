@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj",
+      "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj",
       "projectName": "Masiv.OnlineGames.Models",
-      "projectPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj",
+      "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj",
       "packagesPath": "/Users/christianguzman/.nuget/packages/",
-      "outputPath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Models/obj/",
+      "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christianguzman/.config/NuGet/NuGet.Config"

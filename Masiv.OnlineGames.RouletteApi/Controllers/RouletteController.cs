@@ -58,7 +58,7 @@ namespace Masiv.OnlineGames.RouletteApi.Controllers
             return Ok(result);
         }
         /// <summary>
-        /// 
+        /// It lets make a bet between [0.5 and 10000, red or black]
         /// </summary>
         /// <param name="bet"></param>
         /// <returns></returns>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/lTyg2le2Spz9Q5CxZkOyTlgdxrApagNXXrb6GQfJJowiWsV9cn/Luak06oSP1xXzhUx16bmPAERdGPJW5kjFA==",
+  "dgSpecHash": "RPdp7p4fykKwPqFIwZqZ9zNb2tqr3QpGs28h1AYCXMMA6sb3R1hJIyqbe8auz4yEsbX4dvPQeoDtr3mFlkTW8A==",
   "success": true,
-  "projectFilePath": "/Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
+  "projectFilePath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
   "expectedPackageFiles": [
     "/Users/christianguzman/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",

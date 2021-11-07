@@ -18,7 +18,7 @@ request
 {
   "id": "618744e4992473acb4eee5c9",
   "value": 37,
-  "amount": "9000"
+  "amount": 9000
 }
 
 4. close roulette

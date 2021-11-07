@@ -11,12 +11,13 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5001/api/v1/roulette/new",
+					"raw": "https://test-roulette.azurewebsites.net/api/v1/roulette/new",
 					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-roulette",
+						"azurewebsites",
+						"net"
 					],
-					"port": "5001",
 					"path": [
 						"api",
 						"v1",
@@ -42,12 +43,13 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:5001/api/v1/roulette/{{id}}/open",
+					"raw": "https://test-roulette.azurewebsites.net/api/v1/roulette/{{id}}/open",
 					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-roulette",
+						"azurewebsites",
+						"net"
 					],
-					"port": "5001",
 					"path": [
 						"api",
 						"v1",
@@ -72,7 +74,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"id\": \"61873abd2257f1877366c7a3\",\n  \"value\": 24,\n  \"amount\": \"9000\"\n}",
+					"raw": "{\n  \"id\": \"6188420a1035f0f09fed9a71\",\n  \"value\": 37,\n  \"amount\": 90\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -80,12 +82,13 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:5001/api/v1/roulette/bet",
+					"raw": "https://test-roulette.azurewebsites.net/api/v1/roulette/bet",
 					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-roulette",
+						"azurewebsites",
+						"net"
 					],
-					"port": "5001",
 					"path": [
 						"api",
 						"v1",
@@ -111,12 +114,13 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:5001/api/v1/roulette/{{id}}/close",
+					"raw": "https://test-roulette.azurewebsites.net/api/v1/roulette/{{id}}/close",
 					"protocol": "https",
 					"host": [
-						"localhost"
+						"test-roulette",
+						"azurewebsites",
+						"net"
 					],
-					"port": "5001",
 					"path": [
 						"api",
 						"v1",

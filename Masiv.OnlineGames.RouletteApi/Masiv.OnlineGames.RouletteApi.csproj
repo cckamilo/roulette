@@ -12,8 +12,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Swashbuckle.AspNetCore" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 </Project>

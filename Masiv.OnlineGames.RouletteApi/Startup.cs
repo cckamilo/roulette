@@ -11,14 +11,12 @@ using Masiv.OnlineGames.DataAccess.MongoDb.Repository;
 using Masiv.OnlineGames.Models.Response;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
+using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
 
 namespace Masiv.OnlineGames.RouletteApi
 {
@@ -46,6 +44,11 @@ namespace Masiv.OnlineGames.RouletteApi
             services.AddSingleton<IStoreDataBaseSettings>(sp =>
             sp.GetRequiredService<IOptions<StoreDataBaseSettings>>().Value);
             services.AddControllers().AddNewtonsoftJson();
+            //Configure Swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "RouletteApi", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -65,6 +68,11 @@ namespace Masiv.OnlineGames.RouletteApi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Online Games");
             });
         }
     }

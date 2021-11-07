@@ -7,11 +7,6 @@ namespace Masiv.OnlineGames.DataAccess.MongoDb.Models
 {
     public class Roulette : EntityBase
     {
-        public Roulette()
-        {
-         
-        }
-
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
 

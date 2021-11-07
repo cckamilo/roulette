@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VPotvuraiKjv6uaR3Hmn0MSKw8VSLTAU1yvuhMbZMybV/J6ddS4QCnfZMHi0jQ87uci9XIK4LNyloOqWk5GvRw==",
+  "dgSpecHash": "44rJVGthPjn8p3ilsMky3cEvRw+TC+ZBUos2T6wzc/R2GkrnvosLvYWSLQxKkNOXRl5AUylEaiaxZTXk6W1M2A==",
   "success": true,
   "projectFilePath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,9 @@
     "/Users/christianguzman/.nuget/packages/microsoft.aspnetcore.jsonpatch/3.0.0/microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/3.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.3.0.0.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/microsoft.csharp/4.6.0/microsoft.csharp.4.6.0.nupkg.sha512",
+    "/Users/christianguzman/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "/Users/christianguzman/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/mongodb.bson/2.13.2/mongodb.bson.2.13.2.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/mongodb.driver/2.13.2/mongodb.driver.2.13.2.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/mongodb.driver.core/2.13.2/mongodb.driver.core.2.13.2.nupkg.sha512",
@@ -16,6 +18,10 @@
     "/Users/christianguzman/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
+    "/Users/christianguzman/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/christianguzman/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/christianguzman/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/christianguzman/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "/Users/christianguzman/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512"

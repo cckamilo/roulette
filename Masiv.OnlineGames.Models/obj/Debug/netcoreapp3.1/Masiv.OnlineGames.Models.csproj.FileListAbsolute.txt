@@ -8,3 +8,13 @@
 /Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.csproj.CoreCompileInputs.cache
 /Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.dll
 /Users/christianguzman/Git/Masiv.OnlineGames/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.pdb
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.deps.json
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.dll
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.pdb
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.csproj.AssemblyReference.cache
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.AssemblyInfoInputs.cache
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.AssemblyInfo.cs
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.csproj.CoreCompileInputs.cache
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.dll
+/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.Models.pdb

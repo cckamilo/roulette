@@ -15,52 +15,52 @@ namespace Masiv.OnlineGames.RouletteApi.Controllers
     public class RouletteController : Controller
     {
         private readonly IRouletteBll rouletteBll;
-      
-
         public RouletteController(IRouletteBll _rouletteBll)
         {
             this.rouletteBll = _rouletteBll; 
         }
-        // GET: api/values
+      
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IActionResult> GetAllRoulette()
         {
-            return new string[] { "value1", "value2" };
+            var result = await rouletteBll.GetRouletteAsync();
+
+            return Ok(result);
         }
 
-        // GET api/values/5
+       
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
         [HttpPost("new")]
         public async Task<IActionResult> NewRoulette()
         {
             var result = await rouletteBll.InsertRouletteAsync();
+
             return Ok(result);
         }
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">id ruolette</param>
         /// <returns></returns>
         [HttpPut("{id}/open")]
         public async Task<IActionResult> OpenRoulette(string id)
         {
             var result = await rouletteBll.UpdateRouletteAsync(id);
+
             return Ok(result);
         }
         /// <summary>
-        /// It lets make a bet between [0.5 and 10000, red or black]
+        /// 
         /// </summary>
-        /// <param name="bet"></param>
+        /// <param name="bet.amount">It lets make a bet between [0.5 and 10000, red or black]</param>
+        /// <param name="bet.value">[0,36] number [37=> red, 38=> black] </param>
+        /// <header="authentication">value = true -> is autheticate</param>
         /// <returns></returns>
         [HttpPost("bet")]
         public async Task<IActionResult> NewBet([FromBody] Bet bet)
@@ -73,10 +73,12 @@ namespace Masiv.OnlineGames.RouletteApi.Controllers
             if (ModelState.IsValid && !string.IsNullOrEmpty(bet.id))
             {
                 var result = await rouletteBll.InsertBetAsync(bet);
+
                 return Ok(result);           
             }
             else
             {
+
                 return BadRequest(new
                 {
                     error = "Por favor validar la información",
@@ -87,12 +89,13 @@ namespace Masiv.OnlineGames.RouletteApi.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">id ruolette</param>
         /// <returns></returns>
         [HttpPost("{id}/close")]
         public async Task<IActionResult> CloseBets(string id)
         {
             var result = await rouletteBll.UpdateBetAsync(id);
+
             return Ok(result);
         }
     }

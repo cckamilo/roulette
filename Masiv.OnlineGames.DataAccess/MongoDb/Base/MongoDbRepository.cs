@@ -21,11 +21,7 @@ namespace Masiv.OnlineGames.DataAccess.MongoDb.Base
             var database = mdbClient.GetDatabase(settings.dataBaseName);
             _collection = database.GetCollection<TEntity>(typeof(TEntity).Name);
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+
         public async Task<bool> DeleteByIdAsync(string id)
         {
             try
@@ -41,10 +37,7 @@ namespace Masiv.OnlineGames.DataAccess.MongoDb.Base
                 return false;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
+
         public async Task<IList<TEntity>> GetAllAsync()
         {
             try
@@ -60,11 +53,7 @@ namespace Masiv.OnlineGames.DataAccess.MongoDb.Base
             }
 
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+
         public async Task<TEntity> GetByIdAsync(string id)
         {
             try
@@ -80,11 +69,7 @@ namespace Masiv.OnlineGames.DataAccess.MongoDb.Base
                 return null;
             }
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="entity"></param>
-        /// <returns></returns>
+
         public async Task<TEntity> InsertAsync(TEntity entity)
         {
             try
@@ -104,11 +89,7 @@ namespace Masiv.OnlineGames.DataAccess.MongoDb.Base
             return entity;
 
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="predicate"></param>
-        /// <returns></returns>
+
         public IList<TEntity> SearchForAsync(Expression<Func<TEntity, bool>> predicate)
         {
             try
@@ -122,11 +103,7 @@ namespace Masiv.OnlineGames.DataAccess.MongoDb.Base
 
 
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="entity"></param>
-        /// <returns></returns>
+
         public async Task<bool> UpdateAsync(TEntity entity)
         {
             try

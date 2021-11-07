@@ -22,19 +22,27 @@ namespace Masiv.OnlineGames.Business.Implementation
             
         }
 
-        public Task<ServiceResponse> GetRouletteAsync()
+        public async Task<ServiceResponse> GetRouletteAsync()
         {
-           throw new NotImplementedException();
+            try
+            {
+                response = new ServiceResponse();
+                var result = await repository.GetAllAsync();
+                response.result = result;
+            }
+            catch (Exception ex)
+            {
+                response.error = ex.Message;
+            }
+
+            return response;
         }
 
         public Task<ServiceResponse> GetByIdRouletteAsync(string id)
         {
             throw new NotImplementedException();
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
+
         public async Task<ServiceResponse> InsertRouletteAsync()
         {
             try
@@ -54,11 +62,7 @@ namespace Masiv.OnlineGames.Business.Implementation
            
             return response;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+
         public async Task<ServiceResponse> UpdateRouletteAsync(string id)
         {
             try
@@ -88,17 +92,12 @@ namespace Masiv.OnlineGames.Business.Implementation
           
             return response;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="bet"></param>
-        /// <returns></returns>
+
         public async Task<ServiceResponse> InsertBetAsync(Bet bet)
         {
             try
             {
                 response = new ServiceResponse();
-  
                 var data = await this.repository.GetByIdAsync(bet.id);
                 if (data != null && data.isOpen)
                 {
@@ -127,11 +126,6 @@ namespace Masiv.OnlineGames.Business.Implementation
 
             return response;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="bet"></param>
-        /// <returns></returns>
         public Roulette generateRouletteResult(Roulette roulette)
         {
             Random random = new Random();     
@@ -155,11 +149,7 @@ namespace Masiv.OnlineGames.Business.Implementation
 
             return roulette;
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
+
         public async Task<ServiceResponse> UpdateBetAsync(string id)
         {   
             try
@@ -184,7 +174,6 @@ namespace Masiv.OnlineGames.Business.Implementation
                 response.error = ex.Message;
             }
            
-
             return response;
         }
     }

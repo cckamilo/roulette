@@ -19,22 +19,7 @@ namespace Masiv.OnlineGames.RouletteApi.Controllers
         {
             this.rouletteBll = _rouletteBll; 
         }
-      
-        [HttpGet]
-        public async Task<IActionResult> GetAllRoulette()
-        {
-            var result = await rouletteBll.GetRouletteAsync();
-
-            return Ok(result);
-        }
-
-       
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
+          
         [HttpPost("new")]
         public async Task<IActionResult> NewRoulette()
         {
@@ -63,22 +48,17 @@ namespace Masiv.OnlineGames.RouletteApi.Controllers
         /// <header="authentication">value = true -> is autheticate</param>
         /// <returns></returns>
         [HttpPost("bet")]
-        public async Task<IActionResult> NewBet([FromBody] Bet bet)
+        public async Task<IActionResult> NewBet(BetsModel bet)
         {
-            string token = Request.Headers["authentication"];
-            if (string.IsNullOrEmpty(token))
-            {
-                return Unauthorized();
-            }
-            if (ModelState.IsValid && !string.IsNullOrEmpty(bet.id))
-            {
-                var result = await rouletteBll.InsertBetAsync(bet);
 
-                return Ok(result);           
+            if (ModelState.IsValid && !string.IsNullOrEmpty(bet.id))
+            {         
+                var result = rouletteBll.InsertBetAsync(bet);
+                await Task.WhenAll(result);
+                return Ok(result.Result);           
             }
             else
             {
-
                 return BadRequest(new
                 {
                     error = "Por favor validar la información",
@@ -86,17 +66,13 @@ namespace Masiv.OnlineGames.RouletteApi.Controllers
                 });
             }        
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="id">id ruolette</param>
-        /// <returns></returns>
+
         [HttpPost("{id}/close")]
         public async Task<IActionResult> CloseBets(string id)
         {
-            var result = await rouletteBll.UpdateBetAsync(id);
-
-            return Ok(result);
+            var result =  rouletteBll.UpdateBetAsync(id);
+            await Task.WhenAll(result);
+            return Ok(result.Result);
         }
     }
 }

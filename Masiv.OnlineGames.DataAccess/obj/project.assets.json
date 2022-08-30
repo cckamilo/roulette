@@ -449,19 +449,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/christianguzman/.nuget/packages/": {}
+    "/Users/christiancamilocastroguzman/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
+      "projectUniqueName": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
       "projectName": "Masiv.OnlineGames.DataAccess",
-      "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
-      "packagesPath": "/Users/christianguzman/.nuget/packages/",
-      "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/obj/",
+      "projectPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
+      "packagesPath": "/Users/christiancamilocastroguzman/.nuget/packages/",
+      "outputPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/christianguzman/.config/NuGet/NuGet.Config"
+        "/Users/christiancamilocastroguzman/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -496,7 +496,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -505,7 +506,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

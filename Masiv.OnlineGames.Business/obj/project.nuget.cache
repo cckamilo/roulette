@@ -1,19 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "RPdp7p4fykKwPqFIwZqZ9zNb2tqr3QpGs28h1AYCXMMA6sb3R1hJIyqbe8auz4yEsbX4dvPQeoDtr3mFlkTW8A==",
+  "dgSpecHash": "vOeOfftm+mFReU/ugqGAyCLo3FUX3gwcFsUczbDmc7Apz8AGtTiTvMNL7NeoWKEkF/VS6Di6LQKPLzeKjfPFdg==",
   "success": true,
-  "projectFilePath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
+  "projectFilePath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
   "expectedPackageFiles": [
-    "/Users/christianguzman/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/mongodb.bson/2.13.2/mongodb.bson.2.13.2.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/mongodb.driver/2.13.2/mongodb.driver.2.13.2.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/mongodb.driver.core/2.13.2/mongodb.driver.core.2.13.2.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/mongodb.libmongocrypt/1.2.2/mongodb.libmongocrypt.1.2.2.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "/Users/christianguzman/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    "/Users/christiancamilocastroguzman/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/mongodb.bson/2.13.2/mongodb.bson.2.13.2.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/mongodb.driver/2.13.2/mongodb.driver.2.13.2.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/mongodb.driver.core/2.13.2/mongodb.driver.core.2.13.2.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/mongodb.libmongocrypt/1.2.2/mongodb.libmongocrypt.1.2.2.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/christiancamilocastroguzman/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

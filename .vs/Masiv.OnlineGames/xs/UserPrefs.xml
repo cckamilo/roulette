@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{80807DC8-99CC-4E84-B37D-C4D11B8419B7}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint file="/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Business/Implementation/RouletteBll.cs" relfile="Masiv.OnlineGames.Business/Implementation/RouletteBll.cs" line="129" column="1" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Masiv.OnlineGames.RouletteApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Masiv.OnlineGames.RouletteApi/Controllers/RouletteController.cs">
+    <Files>
+      <File FileName="Masiv.OnlineGames.Models/Response/ServiceResponse.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Masiv.OnlineGames.Business/Interfaces/IRouletteBll.cs" Line="14" Column="31" IsPinned="True" />
+      <File FileName="Masiv.OnlineGames.RouletteApi/Startup.cs" Line="37" Column="42" IsPinned="True" />
+      <File FileName="Masiv.OnlineGames.Business/MappingProfile.cs" Line="13" Column="30" />
+      <File FileName="Masiv.OnlineGames.Business/Implementation/RouletteBll.cs" Line="140" Column="18" />
+      <File FileName="Masiv.OnlineGames.RouletteApi/Controllers/RouletteController.cs" Line="70" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Masiv.OnlineGames" expanded="True">
+            <Node name="Masiv.OnlineGames.Business" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Implementation" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+            <Node name="Masiv.OnlineGames.DataAccess" expanded="True">
+              <Node name="MongoDb" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Masiv.OnlineGames.RouletteApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

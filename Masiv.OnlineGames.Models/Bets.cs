@@ -3,14 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Masiv.OnlineGames.Models
 {
-    public class Bet
+    public class BetsModel
     {
-        public Bet()
-        {
-        }
-        /// <summary>
-        /// id roulette
-        /// </summary>
         public string id { get; set; }
         /// <summary>
         /// position 0-36, and 37=> red, 38 => black

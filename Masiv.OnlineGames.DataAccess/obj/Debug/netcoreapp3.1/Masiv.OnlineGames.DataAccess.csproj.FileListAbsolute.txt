@@ -18,3 +18,13 @@
 /Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.csproj.CoreCompileInputs.cache
 /Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.dll
 /Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.pdb
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.deps.json
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.dll
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/bin/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.pdb
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.csproj.AssemblyReference.cache
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.AssemblyInfoInputs.cache
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.AssemblyInfo.cs
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.csproj.CoreCompileInputs.cache
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.dll
+/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/Debug/netcoreapp3.1/Masiv.OnlineGames.DataAccess.pdb

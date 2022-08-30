@@ -1,20 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.IO;
+using AutoMapper;
+using Masiv.OnlineGames.Business;
 using Masiv.OnlineGames.Business.Implementation;
 using Masiv.OnlineGames.Business.Interfaces;
 using Masiv.OnlineGames.DataAccess.MongoDb.Configuration;
 using Masiv.OnlineGames.DataAccess.MongoDb.Interfaces;
 using Masiv.OnlineGames.DataAccess.MongoDb.Models;
 using Masiv.OnlineGames.DataAccess.MongoDb.Repository;
+using Masiv.OnlineGames.Models;
 using Masiv.OnlineGames.Models.Response;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
@@ -35,6 +34,7 @@ namespace Masiv.OnlineGames.RouletteApi
             services.AddControllers();
             services.AddSingleton<ServiceResponse>();
             services.AddTransient<Roulette>();
+            services.AddTransient<RouletteModel>();
             services.AddSingleton<IRouletteRepository, RouletteRepository>();
             services.AddSingleton<IRouletteBll, RouletteBll>();
             //Configure MongoDb
@@ -49,6 +49,13 @@ namespace Masiv.OnlineGames.RouletteApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RouletteApi", Version = "v1" });
             });
+            //AutoMapper
+            var mapperConfig = new MapperConfiguration(m =>
+            {
+                m.AddProfile(new MappingProfile());
+            });
+            IMapper iMapper = mapperConfig.CreateMapper();
+            services.AddSingleton(iMapper);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj": {}
+    "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj": {}
   },
   "projects": {
-    "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj": {
+    "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
+        "projectUniqueName": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
         "projectName": "Masiv.OnlineGames.Business",
-        "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
-        "packagesPath": "/Users/christianguzman/.nuget/packages/",
-        "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/obj/",
+        "projectPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj",
+        "packagesPath": "/Users/christiancamilocastroguzman/.nuget/packages/",
+        "outputPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/christianguzman/.config/NuGet/NuGet.Config"
+          "/Users/christiancamilocastroguzman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,11 +26,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {
-                "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj"
+              "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {
+                "projectPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj"
               },
-              "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj": {
-                "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj"
+              "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj": {
+                "projectPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj"
               }
             }
           }
@@ -44,13 +44,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,21 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {
+    "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
+        "projectUniqueName": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
         "projectName": "Masiv.OnlineGames.DataAccess",
-        "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
-        "packagesPath": "/Users/christianguzman/.nuget/packages/",
-        "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.DataAccess/obj/",
+        "projectPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/Masiv.OnlineGames.DataAccess.csproj",
+        "packagesPath": "/Users/christiancamilocastroguzman/.nuget/packages/",
+        "outputPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/christianguzman/.config/NuGet/NuGet.Config"
+          "/Users/christiancamilocastroguzman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -108,7 +115,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -117,21 +125,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj": {
+    "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj",
+        "projectUniqueName": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj",
         "projectName": "Masiv.OnlineGames.Models",
-        "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj",
-        "packagesPath": "/Users/christianguzman/.nuget/packages/",
-        "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Models/obj/",
+        "projectPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Models/Masiv.OnlineGames.Models.csproj",
+        "packagesPath": "/Users/christiancamilocastroguzman/.nuget/packages/",
+        "outputPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/christianguzman/.config/NuGet/NuGet.Config"
+          "/Users/christiancamilocastroguzman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -160,7 +168,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -169,21 +178,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj": {
+    "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
+        "projectUniqueName": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
         "projectName": "Masiv.OnlineGames.RouletteApi",
-        "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
-        "packagesPath": "/Users/christianguzman/.nuget/packages/",
-        "outputPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.RouletteApi/obj/",
+        "projectPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.RouletteApi/Masiv.OnlineGames.RouletteApi.csproj",
+        "packagesPath": "/Users/christiancamilocastroguzman/.nuget/packages/",
+        "outputPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.RouletteApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/christianguzman/.config/NuGet/NuGet.Config"
+          "/Users/christiancamilocastroguzman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -195,8 +204,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj": {
-                "projectPath": "/Users/christianguzman/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj"
+              "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj": {
+                "projectPath": "/Users/christiancamilocastroguzman/Desktop/Proyectos/Git/roulette/Masiv.OnlineGames.Business/Masiv.OnlineGames.Business.csproj"
               }
             }
           }
@@ -211,6 +220,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -226,7 +239,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -238,7 +252,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

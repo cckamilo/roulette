@@ -11,7 +11,7 @@ namespace Masiv.OnlineGames.Business.Interfaces
         Task<ServiceResponse> GetByIdRouletteAsync(string id);
         Task<ServiceResponse> GetRouletteAsync();
         Task<ServiceResponse> UpdateRouletteAsync(string id);
-        Task<ServiceResponse> InsertBetAsync(Bet bet);
+        Task<ServiceResponse> InsertBetAsync(BetsModel bet);
         Task<ServiceResponse> UpdateBetAsync(string id);
     }
 }

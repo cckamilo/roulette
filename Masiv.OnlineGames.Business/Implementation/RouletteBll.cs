@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using AutoMapper;
 using Masiv.OnlineGames.Business.Interfaces;
 using Masiv.OnlineGames.DataAccess.MongoDb.Interfaces;
 using Masiv.OnlineGames.DataAccess.MongoDb.Models;
 using Masiv.OnlineGames.Models;
 using Masiv.OnlineGames.Models.Response;
 using MongoDB.Bson;
-
+using System.Linq;
 namespace Masiv.OnlineGames.Business.Implementation
 {
     public class RouletteBll: IRouletteBll
@@ -15,18 +16,19 @@ namespace Masiv.OnlineGames.Business.Implementation
 
         private ServiceResponse response;
         private readonly IRouletteRepository repository;
-
-        public RouletteBll(IRouletteRepository _repository)
+        private readonly IMapper iMapper;
+        public RouletteBll(IRouletteRepository _repository, ServiceResponse response, IMapper iMapper)
         {
             this.repository = _repository;
-            
+            this.response = response;
+            this.iMapper = iMapper;
         }
 
         public async Task<ServiceResponse> GetRouletteAsync()
         {
             try
             {
-                response = new ServiceResponse();
+
                 var result = await repository.GetAllAsync();
                 response.result = result;
             }
@@ -46,8 +48,7 @@ namespace Masiv.OnlineGames.Business.Implementation
         public async Task<ServiceResponse> InsertRouletteAsync()
         {
             try
-            {
-                response = new ServiceResponse();
+            {        
                 var roullete = new Roulette
                 {
                     id = ObjectId.GenerateNewId().ToString()
@@ -66,8 +67,7 @@ namespace Masiv.OnlineGames.Business.Implementation
         public async Task<ServiceResponse> UpdateRouletteAsync(string id)
         {
             try
-            {
-                response = new ServiceResponse();
+            {          
                 var exist = await this.repository.GetByIdAsync(id) != null ? true : false;
                 if (exist)
                 {
@@ -93,11 +93,10 @@ namespace Masiv.OnlineGames.Business.Implementation
             return response;
         }
 
-        public async Task<ServiceResponse> InsertBetAsync(Bet bet)
+        public async Task<ServiceResponse> InsertBetAsync(BetsModel bet)
         {
             try
-            {
-                response = new ServiceResponse();
+            {              
                 var data = await this.repository.GetByIdAsync(bet.id);
                 if (data != null && data.isOpen)
                 {
@@ -126,7 +125,8 @@ namespace Masiv.OnlineGames.Business.Implementation
 
             return response;
         }
-        public Roulette generateRouletteResult(Roulette roulette)
+
+        public Roulette CloseBetsRoulette(Roulette roulette)
         {
             Random random = new Random();     
             var number = random.Next(0, 38);
@@ -153,16 +153,17 @@ namespace Masiv.OnlineGames.Business.Implementation
         public async Task<ServiceResponse> UpdateBetAsync(string id)
         {   
             try
-            {
-                response = new ServiceResponse();
+            {              
                 var data = await this.repository.GetByIdAsync(id);
                 if (data != null && data.isOpen)
                 {
-                    var winner = generateRouletteResult(data);
-                    winner.isOpen = false;
-                    winner.closedAt = DateTime.Now;
-                    var result = await this.repository.UpdateAsync(winner);
-                    response.result = winner;
+
+                    var items = CloseBetsRoulette(data);
+                    items.isOpen = false;
+                    items.closedAt = DateTime.Now;
+                    var result = await this.repository.UpdateAsync(items);
+                    items.bets = items.bets.OrderByDescending(x => x.payout > 0).ToList();
+                    response.result = items;
                 }
                 else
                 {
